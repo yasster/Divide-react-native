@@ -1,17 +1,15 @@
-# Divde
-###An app designed for cross-platform using React-Native   UI components of NativeBase
+## Di\/ide 
 
-[![play-store](https://strapmobile.com/wp-content/uploads/2016/02/google-play-200.png)](https://play.google.com/store/apps/details?id=com.nativebasekitchensink&hl=en) [![app-store](https://strapmobile.com/wp-content/uploads/2016/02/app-store-200.png)](https://itunes.apple.com/us/app/nativebase-kitchensink/id1162013771?mt=8)
+Divide is a cross-platform mobile application using photo recognition of payment receipts. Designed to assist splitting costs between others. Build using [React Native](https://facebook.github.io/react-native/) for iOS and Android with a fusion of ES6. NativeBase builds a layer on top of React Native that provides with basic set of components for mobile application development.
 
-## Demo
+[![play-store](https://strapmobile.com/wp-content/uploads/2016/02/google-play-200.png)] [![app-store](https://strapmobile.com/wp-content/uploads/2016/02/app-store-200.png)]
+
+## NativeBase UI
 
 iOS | Android
  :--:| :-----:
  ![ios-demo](./Screenshots/iOS/demo.gif) | ![android-demo](./Screenshots/android/demo.gif)
- *Coming soon!
-
-
-[NativeBase](http://nativebase.io/) is a free and open source framework that enables developers to build high-quality apps using [React Native](https://facebook.github.io/react-native/) for iOS and Android with a fusion of ES6. NativeBase builds a layer on top of React Native that provides you with basic set of components for mobile application development. This helps you to build world-class application experiences on native platforms.
+ *Many Thanks for their Amazing open source framework
 
 
 ## Get Started
