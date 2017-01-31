@@ -1,6 +1,6 @@
 ## Di\/ide 
 
-Divide is a cross-platform mobile application using photo recognition of payment receipts. Designed to assist splitting costs between others. Build using [React Native](https://facebook.github.io/react-native/) for iOS and Android with a fusion of ES6. NativeBase builds a layer on top of React Native that provides with basic set of components for mobile application development.
+Divide is a cross-platform mobile application using photo recognition of payment receipts using Microsoft's Cognitive Services. Designed to assist splitting costs between others. Build using [React Native](https://facebook.github.io/react-native/) for iOS and Android with a fusion of ES6. NativeBase builds a layer on top of React Native that provides with basic set of components for mobile application development.
 
 [![play-store](https://strapmobile.com/wp-content/uploads/2016/02/google-play-200.png)] [![app-store](https://strapmobile.com/wp-content/uploads/2016/02/app-store-200.png)]
 
