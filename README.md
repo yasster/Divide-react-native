@@ -1,4 +1,4 @@
-## Di\/ide 
+## Di\/ide [![Build Status](https://travis-ci.org/yasster/Divide-react-native.svg?branch=master)](https://travis-ci.org/yasster/Divide-react-native)
 
 Divide is a cross-platform mobile application using photo recognition of payment receipts using Microsoft's Cognitive Services. Designed to assist splitting costs between others. Build using [React Native](https://facebook.github.io/react-native/) for iOS and Android with a fusion of ES6. NativeBase builds a layer on top of React Native that provides with basic set of components for mobile application development.
 
