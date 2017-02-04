@@ -69,5 +69,8 @@
   ],
   "jest": {
     "preset": "jest-react-native"
+    "preprocessorIgnorePatterns": [
+      "node_modules/(?!react-native|jpush-react-native)"
+    ]
   }
 }
