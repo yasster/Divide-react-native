@@ -6,6 +6,7 @@ env:
   - NODE_ENV='test'
 script:
   - npm install -g react-native-cli
+  - npm install --save-dev jest-react-native 
   - npm test
 notifications:
   email: false
