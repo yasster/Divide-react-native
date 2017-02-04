@@ -68,7 +68,7 @@
     "native-base-starter-kit"
   ],
   "jest": {
-    "preset": "jest-react-native"
+    "preset": "jest-react-native",
     "preprocessorIgnorePatterns": [
       "node_modules/(?!react-native|jpush-react-native)"
     ]
