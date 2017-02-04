@@ -41,7 +41,7 @@
     "jest": "18.1.0",
     "jest-react-native": "16.1.0",
     "mocha": "^2.5.3",
-    "react-test-renderer": "15.3.2",
+    "react-test-renderer": "~15.4.2",
     "remote-redux-devtools-on-debugger": "^0.4.6",
     "remotedev-server": "^0.1.2"
   },
