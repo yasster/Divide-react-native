@@ -5,6 +5,7 @@ sudo: false
 env:
   - NODE_ENV='test'
 script:
+  - npm install react-native
   - npm test
 notifications:
   email: false
