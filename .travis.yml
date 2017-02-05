@@ -8,6 +8,7 @@ before_script:
   - npm install --save-dev jest-react-native
   - npm install --save-dev babel-preset-react-native 
   - npm install -g code-push-cli
+  - react-native link code-push
 script:
   - npm test
 notifications:
