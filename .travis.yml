@@ -15,7 +15,6 @@ before_script:
   - npm install react-native-vector-icons
   - react-native link react-native-vector-icons
 script:
-  - npm start
   - npm test
 after_script:
   - react-native run-android
