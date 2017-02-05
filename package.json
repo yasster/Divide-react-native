@@ -69,7 +69,7 @@
   ],
   "jest": {
     "preset": "react-native",
-    "transformIgnorePatterns": ["node_modules/?!(react-native|native-base|react-native-code-push|code-push)"],
+    "transformIgnorePatterns": ["node_modules/?!(react-native|native-base|react-native-code-push|code-push|StatusBar)"],
     "modulePaths":["<rootDir>/js/"]
   }
 }
