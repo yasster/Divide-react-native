@@ -4,12 +4,19 @@ node_js:
 sudo: required
 env:
   - NODE_ENV='test'
-script:
+before_script:
+  - sudo apt-get install -y nodejs
   - npm install -g react-native-cli
   - npm install --save-dev jest-react-native 
   - react-native link 
-  - npm install native-base
-  - react native link native-base
+  - npm install native-base --save
+  - react-native link native-base
+  - npm install react-native-vector-icons
+  - react-native link react-native-vector-icons
+script:
   - npm test
+after_script:
+  - react-native run-android
+  - react-native run-ios
 notifications:
   email: false
