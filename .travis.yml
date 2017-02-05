@@ -7,8 +7,7 @@ env:
 script:
   - npm install -g react-native-cli
   - npm install --save-dev jest-react-native 
-  - npm install react-native-drawer --save
-  - npm install native-base
+  - npm install
   - npm test
 notifications:
   email: false
