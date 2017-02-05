@@ -71,5 +71,9 @@
     "preset": "react-native",
     "transformIgnorePatterns": ["node_modules/?!(react-native|native-base|react-native-code-push|code-push|StatusBar)"],
     "modulePaths":["<rootDir>/js/"]
+  },
+  "haste": {
+  "defaultPlatform": "android",
+  "platforms": ["android", "ios"]
   }
 }
