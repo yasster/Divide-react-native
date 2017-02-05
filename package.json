@@ -4,9 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "compile": "--ignore node_modules",
     "test": "jest",
-    "prepublish": "npm run compile"
   },
   "dependencies": {
     "color": "~0.11.1",
