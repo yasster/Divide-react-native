@@ -6,7 +6,7 @@ env:
   - NODE_ENV='test'
 before_script:
   - npm install --save-dev jest-react-native
-  - npm install --save-dev babel-jest
+  - npm install --save-dev babel-preset-react-native 
 script:
   - npm test
 notifications:
