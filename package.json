@@ -3,10 +3,10 @@
   "version": "0.5.18",
   "private": true,
   "scripts": {
-    "postinstall": "remotedev-debugger",
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "eslint": "eslint",
-    "test": "jest"
+    "compile": "rm -rf dist/* && babel . --out-dir dist --ignore node_modules,dist --source-maps",
+    "test": "jest",
+    "prepublish": "npm run compile"
   },
   "dependencies": {
     "color": "~0.11.1",
