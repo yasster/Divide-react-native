@@ -5,6 +5,7 @@ sudo: required
 env:
   - NODE_ENV='test'
 script:
+  - npm install
   - npm test
 notifications:
   email: false
