@@ -7,7 +7,8 @@ env:
 before_script:
   - sudo apt-get install -y nodejs
   - npm install -g react-native-cli
-  - npm install --save-dev jest-react-native 
+  - npm install --save-dev jest-react-native
+  - npm install --save-dev babel-cli
   - react-native link 
   - npm install native-base --save
   - react-native link native-base
