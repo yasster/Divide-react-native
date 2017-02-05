@@ -10,8 +10,5 @@ before_script:
   - npm install --save-dev babel-cli
 script:
   - npm test
-after_script:
-  - react-native run-android
-  - react-native run-ios
 notifications:
   email: false
