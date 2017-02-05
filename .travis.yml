@@ -9,7 +9,7 @@ before_script:
   - npm install --save-dev babel-preset-react-native 
   - npm install --save react-native-code-push
   - react-native link react-native-code-push
-  - code-push-travis
+  - code-push -travis
 script:
   - npm test
 notifications:
