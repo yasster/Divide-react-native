@@ -24,8 +24,6 @@ iOS | Android
 
 * Globally installed [react-native CLI](https://facebook.github.io/react-native/docs/getting-started.html)
 
-* Install [CodePush](https://microsoft.github.io/code-push/) globally and get keys for your app.
-
 
 
 ####2. Installation
