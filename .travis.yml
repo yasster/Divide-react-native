@@ -6,6 +6,6 @@ env:
   - NODE_ENV='test'
 script:
   - npm install
-  - npm test
+  - npm run-script index.android.js
 notifications:
   email: false
