@@ -6,7 +6,7 @@
     "postinstall": "remotedev-debugger",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "eslint": "eslint",
-    "test": "jest"
+    "test": "jest test/index.android.js"
   },
   "dependencies": {
     "color": "~0.11.1",
