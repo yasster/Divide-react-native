@@ -1,6 +1,8 @@
 ## Di\/ide [![Build Status](https://travis-ci.org/yasster/Divide-react-native.svg?branch=master)](https://travis-ci.org/yasster/Divide-react-native)
 
-Divide is a cross-platform mobile application using photo recognition of payment receipts using Microsoft's Cognitive Services. Designed to assist splitting costs between others. Build using [React Native](https://facebook.github.io/react-native/) for iOS and Android with a fusion of ES6. NativeBase builds a layer on top of React Native that provides with basic set of components for mobile application development.
+The divide is a cross-platform mobile application, performing photo recognition of payment receipts. Microsoft's Cognitive Services analyses the input images, to extra the desired data.Designed for seamlessly splitting the payments, between the involved parties in the transaction. 
+
+Build using [React Native](https://facebook.github.io/react-native/) for iOS and Android with a fusion of ES6. NativeBase builds a layer on top of React Native that provides with basic set of components for mobile application development.
 
 [![play-store](https://strapmobile.com/wp-content/uploads/2016/02/google-play-200.png)] [![app-store](https://strapmobile.com/wp-content/uploads/2016/02/app-store-200.png)]
 
@@ -14,7 +16,8 @@ iOS | Android
 
 ## Get Started
 
-####1. System Requirements
+Pre-requisite
+1. System Requirements
 
 * Globally installed [node](https://nodejs.org/en/) >= 4.0
 
@@ -26,19 +29,26 @@ iOS | Android
 
 
 
-####2. Installation
+2. Installation,
+   Orderly Run the following command in the terminal 
 
-On the command prompt run the following commands
-
+1. Clone the repository:
 ```sh
 $ git clone https://github.com/yasster/Divie-react-native.git
+```
 
+2. Change the directory 
+```sh
 $ cd Divie-react-native/
+```
 
+3. Install npm packages:
+
+```sh
 $ npm install
 ```
 
-If React Native < 0.29
+4. If React Native < 0.29
 
 ```sh
 $ rnpm link
@@ -50,7 +60,7 @@ If React Native >= 0.29
 $ react-native link
 ```
 
-####3. Simulate for iOS
+3. Simulate for iOS
 
 **Method One**
 
@@ -67,7 +77,7 @@ $ react-native link
 $ react-native run-ios
 ```
 
-###4. Simulate for Android
+4. Simulate for Android
 
 *	Make sure you have an **Android emulator** installed and running.
 
