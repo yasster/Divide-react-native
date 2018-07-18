@@ -16,7 +16,8 @@ iOS | Android
 
 ## Get Started
 
-####1. System Requirements
+Pre-requisite
+1. System Requirements
 
 * Globally installed [node](https://nodejs.org/en/) >= 4.0
 
@@ -28,19 +29,27 @@ iOS | Android
 
 
 
-####2. Installation
+2. Installation
 
-On the command prompt run the following commands
+Orderly Run the following command in the terminal 
 
+1. Clone the repository:
 ```sh
 $ git clone https://github.com/yasster/Divie-react-native.git
+```
 
+2. Change the directory 
+```sh
 $ cd Divie-react-native/
+```
 
+3. Install npm packages:
+
+```sh
 $ npm install
 ```
 
-If React Native < 0.29
+4. If React Native < 0.29
 
 ```sh
 $ rnpm link
