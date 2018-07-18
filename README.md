@@ -29,9 +29,8 @@ Pre-requisite
 
 
 
-2. Installation
-
-Orderly Run the following command in the terminal 
+2. Installation,
+   Orderly Run the following command in the terminal 
 
 1. Clone the repository:
 ```sh
@@ -61,7 +60,7 @@ If React Native >= 0.29
 $ react-native link
 ```
 
-####3. Simulate for iOS
+3. Simulate for iOS
 
 **Method One**
 
@@ -78,7 +77,7 @@ $ react-native link
 $ react-native run-ios
 ```
 
-###4. Simulate for Android
+4. Simulate for Android
 
 *	Make sure you have an **Android emulator** installed and running.
 
